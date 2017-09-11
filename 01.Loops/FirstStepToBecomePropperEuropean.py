@@ -5,12 +5,12 @@ valg=int(input())
 
 if (valg == 1):
     while True:
-        print("Enter a temperature in Celsius, enter 10000 too quite : ")
+        print("Enter a temperature in Fahrenheit, enter 10000 too quite : ")
         Fahrenheit = float(input())
         if(Fahrenheit == 10000):
             break
-        Celsius =(Fahrenheit - 32)*(5/9)
-        print ("Temperature:", Celsius, "Celsius = ", Fahrenheit, " F")
+        Celsius =(Fahrenheit - 32)*(5.0/9)
+        print ("Temperature:",Fahrenheit, " F=", Celsius, "Celsius ")
 
 
 elif (valg ==2):
@@ -33,4 +33,3 @@ elif (valg==3):
             break
             meter = feet*0.3
         print ("Mesure:", fett, "f =",meter , "m")
-
