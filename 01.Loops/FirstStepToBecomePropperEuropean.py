@@ -3,6 +3,8 @@ print('2. from inches to centimeter')
 print('3. from Feet to meter')
 valg=int(input())
 
+print "hello world!"
+
 if (valg == 1):
     while True:
         print("Enter a temperature in Fahrenheit, enter 10000 too quite : ")
@@ -12,7 +14,6 @@ if (valg == 1):
         Celsius =(Fahrenheit - 32)*(5.0/9)
         print ("Temperature:",Fahrenheit, " F=", Celsius, "Celsius ")
 
-
 elif (valg ==2):
     while True:
         print("Enter a mesure inches , enter 10000 too quite : ")
@@ -21,9 +22,6 @@ elif (valg ==2):
             break
         centimeter = inches * 2.54
         print ("Mesure:", inches, "I =", centimeter, "cm")
-
-
-
 
 elif (valg==3):
     while True:
